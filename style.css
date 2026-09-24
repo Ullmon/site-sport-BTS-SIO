@@ -28,6 +28,9 @@
         font-weight: bold;
         display: flex;
         align-items: center;
+     font-style: italic;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
         
     }
     .logo-img {
