@@ -30,7 +30,11 @@
         align-items: center;
         
     }
-
+    .logo-img {
+        width: 250px;
+        height: auto;
+        margin-right: 10px;
+    }
     nav a {
         color: #fff;
         margin: 0 50px;
