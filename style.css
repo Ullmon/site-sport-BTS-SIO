@@ -1,11 +1,11 @@
  body {
         margin: 0;
         font-family: Arial, sans-serif;
-        background-color: #34af16e8;
+        background-color: #086ec2;
     }
 
     header-1 {
-        background-color: #34af16e8;
+        background-color: #04abc9e8;
         color: white;
         padding: 10px 20px;
         display: flex;
@@ -14,8 +14,8 @@
         border-radius: 0 0 25px 25px;
     }
     header {
-        background-color: #34af16e8;
-        color: white;
+        background-color: #04abc9e8;
+        color: rgb(5, 4, 4);
         padding: 10px 20px;
         display: flex;
         justify-content: space-between;
@@ -28,7 +28,7 @@
         font-weight: bold;
         display: flex;
         align-items: center;
-     font-style: italic;
+        font-style: italic;
         font-weight: bold;
         font-family: 'Courier New', Courier, monospace;
         
@@ -38,8 +38,22 @@
         height: auto;
         margin-right: 10px;
     }
+    .button {
+        background-color: rgb(223, 192, 57);
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 25px;
+        box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+
+    }
+
     nav a {
-        color: #fff;
+        color: rgb(65, 63, 63);
         margin: 0 50px;
         font-weight: bold;
         text-decoration: none;
@@ -51,6 +65,13 @@
         align-items: center;
         font-size: large;
     }
+    .Boxrules {
+        background-color: rgb(185, 1, 1);
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+        padding: 0.5px;
+        text-align: left;
+    }
 
     .login input {
         padding: 5px;
@@ -58,41 +79,36 @@
         border: none;
         font-size: large;
     }
-
-    .login button {
-        background-color: #00a2ff;
-        border: none;
-        padding: 6px 12px;
+    .footer {
+        background-color: #000000e8;
         color: white;
-        cursor: pointer;
-        border-radius: 4px;
-    }
-
-    main {
-        padding: 20px;
-    }
-
-    .game-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        gap: 20px;
-    }
-
-    .game-card {
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        padding: 10px;
         text-align: center;
-    }
-
-    .game-card img {
+        padding: 10px 0;
+        position: flex;
+        bottom: 0px;
         width: 100%;
-        border-radius: 8px;
+        
+    }
+    .footer p {
+        margin: 0;
+        font-size: 12px;
+        font-family: 'Courier New', Courier, monospace;
+        font-style: italic;
+        font-weight: bold;
+    }
+    .h2{
+        text-align: center;
+        font-size: 50px;
+
     }
 
-    .game-card h4 {
-        margin: 10px 0 0;
+    .regle,h3{
+    margin-left: 15px;
+    font-size: 25px;
+    }
+    .regle,h4{
+    margin-left: 15px;
+    font-size: 20px;
     }
     .propos{
         text-align: center;
@@ -191,20 +207,3 @@ label{
 .social-icons a:hover {
   background-color: #007bff; /* Change de couleur au survol */
 }
-.footer {
-        background-color: #000000e8;
-        color: white;
-        text-align: center;
-        padding: 10px 0;
-        position: flex;
-        bottom: 0px;
-        width: 100%;
-        
-    }
-.footer p {
-        margin: 0;
-        font-size: 12px;
-        font-family: 'Courier New', Courier, monospace;
-        font-style: italic;
-        font-weight: bold;
-    }
