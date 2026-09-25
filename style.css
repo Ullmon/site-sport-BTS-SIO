@@ -191,3 +191,10 @@ label{
 .social-icons a:hover {
   background-color: #007bff; /* Change de couleur au survol */
 }
+.footer p {
+        margin: 0;
+        font-size: 12px;
+        font-family: 'Courier New', Courier, monospace;
+        font-style: italic;
+        font-weight: bold;
+    }
