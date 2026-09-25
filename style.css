@@ -191,6 +191,16 @@ label{
 .social-icons a:hover {
   background-color: #007bff; /* Change de couleur au survol */
 }
+.footer {
+        background-color: #000000e8;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: flex;
+        bottom: 0px;
+        width: 100%;
+        
+    }
 .footer p {
         margin: 0;
         font-size: 12px;
