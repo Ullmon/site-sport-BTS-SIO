@@ -1,11 +1,11 @@
 body {
         margin: 0;
         font-family: Arial, sans-serif;
-        background-color: #22a810da;
+        background-color: #086ec2;
     }
 
     header-1 {
-        background-color: #34af16e8;
+        background-color: #04abc9e8;
         color: white;
         padding: 10px 20px;
         display: flex;
@@ -14,7 +14,7 @@ body {
         border-radius: 0 0 25px 25px;
     }
     header {
-        background-color: #34af16e8;
+        background-color: #04abc9e8;
         color: rgb(5, 4, 4);
         padding: 10px 20px;
         display: flex;
@@ -101,7 +101,7 @@ body {
     }
 
     .footer {
-        background-color: #13350be8;
+        background-color: #000000e8;
         color: white;
         text-align: center;
         padding: 10px 0;
