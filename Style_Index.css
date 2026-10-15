@@ -100,16 +100,16 @@ body {
         margin: 10px 0 0;
     }
 
-    .footer {
+    footer {
         background-color: #000000e8;
         color: white;
         text-align: center;
         padding: 10px 0;
-        position: fixed;
-        bottom: -1px;
+        position: flex;
+        bottom: 0px;
         width: 100%;
-        border-radius: 25px 25px 0 0;
     }
+
     .footer p {
         margin: 0;
         font-size: 12px;
